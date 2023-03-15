@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "curious george's tech playground"
+theme = "m10c"
+
+
+
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 4
+
+[params]
+  author = "curious george"
+  description = "cyber nerd and technology enthusiast"
+  avatar = "images/logo.jpg"
+  menu_item_separator = " - "
+  [[params.social]]
+  icon = "github"
+  name = "github"
+  url = "https://github.com/curiousgeorge1384"
+  
